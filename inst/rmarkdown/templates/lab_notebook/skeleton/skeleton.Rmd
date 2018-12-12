@@ -1,0 +1,24 @@
+---
+title: "Title"
+author: "Your Name"
+output:
+  html_document:
+    code_download: yes
+    fontsize: 8pt
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, collapse = TRUE, 
+                      fig.width=4.25, fig.height=4.0, fig.align='center')
+```
+
+## Header Level 1
+
+
+### Header Level 2
+
+
