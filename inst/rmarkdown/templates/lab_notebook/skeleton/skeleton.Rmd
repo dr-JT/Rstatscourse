@@ -1,5 +1,5 @@
 ---
-title: "Title"
+title: "Lab {number} Homework"
 author: "Your Name"
 output:
   html_document:
@@ -13,7 +13,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, collapse = TRUE, 
-                      fig.width=4.25, fig.height=4.0, fig.align='center')
+                      fig.width=4.25, fig.height=4.0, fig.align='left')
 ```
 
 ## Header Level 1
