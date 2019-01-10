@@ -5,11 +5,12 @@ output:
   html_document:
     code_download: yes
     fontsize: 8pt
-    theme: flatly
     toc: yes
     toc_float:
       collapsed: no
 ---
+
+Last updated: `r format(Sys.Date(), "%B %d %Y")`
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, collapse = TRUE, 
